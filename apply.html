@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Apply × YourServer.net</title>
+        <link href="style/bootstrap.css" rel="stylesheet" />
+        <link href="style/main.css" rel="stylesheet" />
+        <link href="style/font-awesome.css" rel="stylesheet" />
+        <link href="style/font-awesome.min.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="description" content="Description of website" />
+    </head>
+    <body>
+        <div class="header">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fa fa-address-card"></i> Über uns</a></li>
+                        <li><a href="forum/"><i class="fa fa-users"></i> Forum</a></li>
+                        <li><a href="minigames.html"><i class="fa fa-gamepad"></i> Minigames</a></li>
+                        <li><a href="apply.html"><i class="fa fa-code"></i> Bewerben</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="row block-bg block-single">
+                <div class="col-md-12 block">
+                    <h1>Apply</h1>
+                    <hr/>
+                    <p>You can apply for YourServer.net here</p>
+                    <!--Put in "yourmail.com" the eimal adress to send the applications formular-->
+                    <form action="https://formsubmit.co/yourmail.com" method="POST">
+                        <label class="apply-label" for="type">What would you like to apply for?</label>
+                        <select name="type" class="form-control" required>
+                            <option value="developer">Developer</option>
+                            <option value="moderator">Supporter</option>
+                            <option value="supporter">Designer</option>
+                            <option value="builder">Builder</option>
+                        </select><br />
+                        <label class="apply-label" for="name">What's your name?</label>
+                        <input type="text" class="form-control" name="name" placeholder="Your name" required><br />
+                        
+                        <label class="apply-label" for="alter">How old are you?</label>
+                        <input type="number" class="form-control" name="alter" placeholder="How old are you?" value="14" min="14" required><br />
+                        
+                        <label class="apply-label" for="description">Who are you?</label>
+                        <textarea class="form-control" name="description" placeholder="Who am I"required></textarea><br />
+                        
+                        <label class="apply-label" for="references">What are your experiences?</label>
+                        <textarea class="form-control" name="references" placeholder="What have I done so far?"required></textarea><br />
+                        
+                        <label class="apply-label" for="references">Why YourServer.net?</label>
+                        <textarea class="form-control" name="references" placeholder="Why DeinServer.net?"required></textarea><br />
+                        
+                        <label class="apply-label" for="contact">How do we reach you? (Skype / Discord / Teamspeak / ...)</label>
+                        <input type="text" class="form-control" name="contact" placeholder="Contact options" required><br />
+                        
+                        <label class="apply-label" for="email">Your email adress</label>
+                        <input type="email" class="form-control" name="email" placeholder="Your email" required><br />
+                        
+                        <input type="submit" class="btn btn-primary" value="Bewerben">
+                    </form>
+                </div>
+            </div>
+        </div> 
+        <div class="row block-bg">
+            <hr/>
+            <div class="col-md-4 socialmedia">
+                <h4>YourServer.net</h4>
+                <ul style="list-style: none;">
+                    <li><a href="impressum.html">Imprint</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 socialmedia oneline">
+                <h4>Sozialemedia</h4>
+                <ul style="list-style: none;">
+                    <li><a href="#"><i class="fa fa-facebook-square fa-3x social" aria-hidden="true"></i></a></li>
+                   <li><a href="#"><i class="fa fa-twitter fa-3x social" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus fa-3x social" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube-play fa-3x social" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 socialmedia">
+                <h4>Information</h4>
+                <p>
+                    Do you still have questions
+                </p>
+                <p>
+                    Write us an email: <a href="mailto:email@email.de">email@email.de</a>
+                </p>
+            </div>
+            <hr />
+            <div class="col-md-12 socialmedia">
+                <p>
+                    &copy; Untitled. | Design by <a href="https://www.spigotmc.org/resources/mineweb-ger-de-minecraft-website-free.45084/">Skaustly</a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -6,5 +6,7 @@ Original from [Skaustly](https:///www.spigotmc.org/resources/mineweb-ger-de-mine
 Revised and adapted by me!
 
 **How to use it:**
+
 1. ddd
+   
 2.ddd

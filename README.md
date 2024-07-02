@@ -9,4 +9,4 @@ To use the website template you just have to download the files. Then you adjust
 ![image](https://github.com/RexFracht868454/MinecraftServerWebsite/assets/88945501/ff105ac3-a2ca-4c6a-9451-8403c431a5b1)
 ![image](https://github.com/RexFracht868454/MinecraftServerWebsite/assets/88945501/79974649-0510-4fbf-a9fb-bfd8d7de9d78)
 
-Original from [Skaustly](https:///www.spigotmc.org/resources/mineweb-ger-de-minecraft-website-free.45084/), revised and adapted by me!
+Original from [Skaustly](https:///www.spigotmc.org/resources/mineweb-ger-de-minecraft-website-free.45084/), minimal revised and adapted by me!
